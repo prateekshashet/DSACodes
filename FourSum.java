@@ -14,10 +14,11 @@ public class FourSum {
                     int sum=a[i]+a[j]+a[l]+a[r];
                     if(sum==target){
                         ans.add(new ArrayList<>(Arrays.asList(a[i],a[j],a[l],a[r])));
-                        while(l<r&&a[l]==a[l+1]) l++;
-                        while(l<r&&a[r]==a[r-1]) r--;
                         l++;
                         r--;
+                        while(l<r&&a[l]==a[l+1]) l++;
+                        while(l<r&&a[r]==a[r-1]) r--;
+                        
                     }
                     else if(sum<target) l++;
                     else r--;
