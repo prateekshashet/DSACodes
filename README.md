@@ -7,7 +7,7 @@ Welcome to my DSA repository! This repository serves as a personal archive of da
 ## 📌 Features
 
 - **Topic-Wise Organization**: Problems are grouped by core computer science topics (Arrays, Linked Lists, Trees, Graphs, Dynamic Programming, etc.).
-- **Multiple Languages**: Solutions implemented primarily in **C++** / **Java** / **Python**.
+- **Multiple Languages**: Solutions implemented primarily in **Java**
 - **Efficiency Focus**: Includes clean code along with Time and Space complexity analyses.
 - **Progress Tracking**: Tracks problem-solving consistency and progress over time.
 
